@@ -1,0 +1,22 @@
+/* Setting left border enable */
+td{
+  border-left : 4px solid #000000;
+}
+
+.no-border {
+  border-left : none;
+  flex-direction: initial;
+  justify-content: initial;
+}
+
+
+/* Making a circle */
+.dot{
+  height: 15px;
+  width : 15px;
+  background-color: #000000;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left : -4px;
+}
+
